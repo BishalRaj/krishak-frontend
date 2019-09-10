@@ -4,7 +4,7 @@ import {AuthComponent} from './auth/auth.component';
 
 const routes: Routes = [
   {
-    path: 'auth',
+    path: '',
     component: AuthComponent
   }
 ];
@@ -15,6 +15,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ], exports: [RouterModule]
 })
+
+
 export class AppRoutingModule {
 }
 
