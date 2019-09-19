@@ -1852,7 +1852,7 @@ select option
 }
 .featured_slider .slick-dots li.slick-active
 {
-	background: #0e8ce4;
+	background: #ffffff00;
 }
 .featured_slider .slick-dots li:last-child
 {

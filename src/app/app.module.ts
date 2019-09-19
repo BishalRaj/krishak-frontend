@@ -8,6 +8,7 @@ import { AuthComponent } from './auth/auth.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HomedealComponent } from './homedeal/homedeal.component';
+import { CardsComponent } from './homedeal/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HomedealComponent } from './homedeal/homedeal.component';
     HeaderComponent,
     HomedealComponent,
     FooterComponent,
+    CardsComponent,
   ],
   imports: [
     BrowserModule,
