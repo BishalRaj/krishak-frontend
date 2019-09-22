@@ -4,6 +4,11 @@ import {AuthComponent} from './auth/auth.component';
 
 const routes: Routes = [
   {
+    path: '',
+    component: AuthComponent,
+    data: {auth: 'auth'}
+  },
+  {
     path: 'auth',
     component: AuthComponent,
     data: {auth: 'auth'}
